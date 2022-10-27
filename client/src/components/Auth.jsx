@@ -75,11 +75,11 @@ const Auth = () => {
             )}
             {isSignup && (
               <div className='auth__form-container_fields-content_input'>
-                <lebel htmlFor="avatarURL">아바타 url</lebel>
+                <lebel htmlFor="avatarURL">프로필 URL</lebel>
                 <input 
                   name="avatarURL"
                   type="text"
-                  placeholder='전화번호'
+                  placeholder='프로필 URL'
                   onChange={handleChange}
                   required
                 />
